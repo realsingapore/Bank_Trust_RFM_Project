@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 
 # Initialize visual style
-plt.style.use('seaborn-v0_8')
+plt.style.use('seaborn-v8')
+
 sns.set_palette("husl")
 
 def generate_cluster_profiles(rfm_df):

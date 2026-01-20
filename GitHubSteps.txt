@@ -29,7 +29,11 @@ rmdir /s /q .git
 ni .gitignore
 
 # 3. Configure git
+<<<<<<< HEAD
 git config --global user.name "realsingapore"
+=======
+git config --global user.name "Oluwaseun Opoola"
+>>>>>>> c2125305f80ac929422e5245cd607e484e45cf58
 git config --global user.email "realsingapore@gmail.com"
 
 # 4. Initialize repository
@@ -40,7 +44,11 @@ git add .
 git commit -m "Initial commit: Bank Trust RFM Project"
 
 # 6. Add remote repository
+<<<<<<< HEAD
 git remote add origin repo-link (/realsingapore/Bank_Trust_RFM_Project.git)
+=======
+git remote add origin https://github.com/OlorioKo-Data/BANK_TRUST_RFM_PROJECT.git
+>>>>>>> c2125305f80ac929422e5245cd607e484e45cf58
 
 # 7. Rename branch to 'main' and push to GitHub
 git branch -M main
