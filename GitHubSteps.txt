@@ -1,0 +1,59 @@
+create a new folder
+create new files
+create a new environment or load existing one(s)
+how: python - m venv bank_env # venv - virtual environment (give your environment any name of your choice)
+activate the environment
+how: bank_venv\Script\Activate
+create a requirement.txt file # where you store all required packages for the project
+after this, install those packages in your window.
+how: pip instal -r requirements.txt # will install all packages in the file
+
+don't forget to create a .env file and add the API link from groq.com
+# this generate automated suggestions, response while enduser interacts with the server!
+
+on your GitHub account, create a repository, then follow step #2 below - to commit and add files to your GitHub account.
+_____________
+
+
+# vscode procedure
+Create a file named GitHubSteps.txt
+
+# 1. Navigate to project folder
+cd C:\Users\HP\Desktop\Bank_Trust_RFM
+
+# (Optional) Remove any previous Git history
+rmdir /s /q .git
+
+# 2. Create .gitignore file (then add lines like: Data/ and .env inside it)
+# On Windows (PowerShell):
+ni .gitignore
+
+# 3. Configure git
+git config --global user.name "realsingapore"
+git config --global user.email "realsingapore@gmail.com"
+
+# 4. Initialize repository
+git init
+
+# 5. Add and commit all files
+git add .
+git commit -m "Initial commit: Bank Trust RFM Project"
+
+# 6. Add remote repository
+git remote add origin repo-link (/realsingapore/Bank_Trust_RFM_Project.git)
+
+# 7. Rename branch to 'main' and push to GitHub
+git branch -M main
+git push -u origin main
+
+# 8. Check which file changes were made
+git status
+
+# 9. Add all changes
+git add .
+
+# 10. Commit the changes
+git commit -m "Add new feature: description of changes"
+
+# 11. Push to GitHub
+git push origin main
