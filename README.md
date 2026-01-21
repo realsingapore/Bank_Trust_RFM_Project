@@ -41,6 +41,8 @@ Download a clean CSV of all customers with:
 ---
 
 ## 📂 Project Structure
+BankTrust/ │ ├── app.py                     # Main Streamlit application ├── data_processor.py          # Data loading & preprocessing ├── rfm_analyzer.py            # RFM scoring & scaling ├── clustering_engine.py       # KMeans clustering & cluster naming ├── visualization.py           # All charts & visualizations │ ├── Data/ │   └── Bank_Trust_Data.csv    # Input dataset (not included in repo) │ ├── requirements.txt           # Python dependencies └── README.md                  # Project documentation
+
 ---
 by:
 ### Oluwaseun Opoola
