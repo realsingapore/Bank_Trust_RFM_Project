@@ -44,4 +44,4 @@ Download a clean CSV of all customers with:
 ---
 by:
 ### Oluwaseun Opoola
-*** Data Scientist
+***Data Scientist***
